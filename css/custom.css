@@ -254,3 +254,20 @@ h5 {
 .btn:hover {
 	background-color: #394a1d;
 }
+
+input:focus, textarea:focus {
+  border-bottom: 1px solid #ABA87B !important;
+  box-shadow: 0 1px 0 0 #ABA87B !important;
+}
+
+[type="radio"]:checked + span::after, [type="radio"].with-gap:checked + span::after {
+    background-color: #ABA87B !important;
+}
+
+[type="radio"]:checked + span::after, [type="radio"].with-gap:checked + span::before, [type="radio"].with-gap:checked + span::after {
+    border: 2px solid #ABA87B !important;
+}
+
+.dropdown-content li > a, .dropdown-content li > span {
+    color: #ABA87B !important;
+}
